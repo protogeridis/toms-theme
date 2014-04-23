@@ -155,7 +155,7 @@ get_header(); ?>
              <ul class="bxslider" id="bxslider-women">
 
                  <?php
-                 for ($i = 1; $i <= $productcount; $i++) {
+                 for ($i = 1; $i <= 26; $i++) {
                      echo '<div class="slide product-big">' . 
                      '<img class="lazy" data-original="' .
                      $rooturl .
@@ -171,19 +171,26 @@ get_header(); ?>
            </ul><!-- bxslider -->
 
 
-           <div id="bx-pager-women" class="bx-pager">
+           <div id="bx-pager-women" class="bx-pager clearfix">
+            <section class="clearfix">
             <?php
-            for ($i = 1; $i <= $productcount; $i++) {
+            for ($i = 1; $i <= 26; $i++) {
+                if($i==26/2){
+                  echo '</section><div class="clear"></div><div class="collapse pager-expand" id="expand"><section class="clearfix">';
+                }
                 echo '<a data-slide-index="' . 
                 ($i - 1) .
-                'href=""><img class="lazy" data-original="' .
+                '" href=""><img class="lazy" data-original="' .
                 $rooturl .
                 '/images/women/women' .
                 $i .
                 '.jpg" alt="TOMS Women" /></a>';
            }
            ?>
+         </section>
+         </div><!-- expand -->
       </div><!-- bx pager -->
+      <a data-toggle="collapse" href="#expand">expand</a>
 
  </div><!-- tab pane -->
 
