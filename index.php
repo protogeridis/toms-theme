@@ -190,7 +190,7 @@ get_header(); ?>
          </section>
          </div><!-- expand -->
       </div><!-- bx pager -->
-      <a data-toggle="collapse" href="#expand">expand</a>
+      <a data-toggle="collapse" href="#expand" class="expand-toggle collapsed">Click to expand Collection<i class="fa fa-angle-down"></i></a>
 
  </div><!-- tab pane -->
 

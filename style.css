@@ -66,7 +66,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
    }
 
    /* Main Styling */
-
+   *{
+      -moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+   }
    body{
    	font-family: "brandon-grotesque",sans-serif;
    	color:#333;
@@ -494,7 +499,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
    	margin:20px 48px 20px 0;
    }
 
-   .bx-pager > a.active {
+   .bx-pager a.active {
    	opacity: 0.3;
    }
    .bx-pager a:nth-child(6n){
@@ -506,6 +511,42 @@ Use it to make something cool, have fun, and share what you've learned with othe
    	position:absolute;
    	bottom:0;
    }
+a.expand-toggle {
+line-height: 40px;
+height: 40px;
+text-align:center;
+display: block;
+margin-top: 40px;
+}
+a.expand-toggle:hover{
+   text-decoration: none;
+}
+.expand-toggle i {
+display: inline-block;
+width: 40px;
+border-radius: 100%;
+border: 3px solid #6D6D6D;
+color: #6D6D6D;
+height: 40px;
+text-align: center;
+line-height: 36px;
+font-size: 23px;
+margin: 0 12px;
+position: relative;
+top: 4px;
+}
+.expand-toggle.collapsed i.fa.fa-angle-down{
+   line-height:36px;
+}
+.expand-toggle.collapsed i.fa.fa-angle-down::before{
+   content: "\f107";
+}
+.expand-toggle i.fa.fa-angle-down{
+   line-height:32px;
+}
+.expand-toggle i.fa.fa-angle-down::before{
+   content: "\f106";
+}
    .section-header{
    	text-align:center;
    	margin:20px 0;
