@@ -159,7 +159,7 @@ get_header(); ?>
                      echo '<div class="slide product-big">' . 
                      '<img class="lazy" data-original="' .
                      $rooturl .
-                     '/images/women/women' .
+                     '/images/women/' .
                      $i .
                      '.jpg" alt="TOMS Women">'.
                      '</div><!-- slide -->';
@@ -182,7 +182,7 @@ get_header(); ?>
                 ($i - 1) .
                 '" href=""><img class="lazy" data-original="' .
                 $rooturl .
-                '/images/women/women' .
+                '/images/women/' .
                 $i .
                 '.jpg" alt="TOMS Women" /></a>';
            }
