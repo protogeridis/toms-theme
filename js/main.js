@@ -44,7 +44,11 @@ jQuery(document).ready(function(){
 
 
 	jQuery('#jlocator').jlocator({
-		geolocation: false
+		geolocation: false,
+		markerIcon: 'wp-content/themes/toms/images/pin.png', //marker icon path ('' for default google icon)
+		 startZoom: 6, //initial map zoom (on page load)
+         latitude: 39, //initial map latitude (on page load)
+         longitude: 22	//initial map longitude (on page load)
 	});
 
 	/* Button Animation */
@@ -92,7 +96,14 @@ jQuery(document).ready(function(){
 	var womenslider = jQuery('#bxslider-women').bxSlider({
 		mode:'fade',
 		adaptiveHeight:true,
-		pagerCustom: '#bx-pager-women'
+		pagerCustom: '#bx-pager-women',
+		onSlideAfter: function($slideElement, oldIndex, newIndex){
+			if(newIndex==12){
+				console.log('asd');
+				jQuery('#women-expand').collapse('show');
+			}
+		}
+
 	});
 
 	var menslider = jQuery('#bxslider-men').bxSlider({

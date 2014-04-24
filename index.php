@@ -46,11 +46,11 @@ get_header(); ?>
 
                      <div class="col-md-6 col-sm-8 col-xs-4" id="headernav">
                           <ul class="nav main-menu">
-                              <li class="main-menu-item"><a class="nav-button animate" href="#intro">Home</a></li>
-                              <li class="main-menu-item"><a class="nav-button animate" href="#products">Products</a></li>
-                              <li class="main-menu-item"><a class="nav-button animate" href="#giving">Giving</a></li>
-                              <li class="main-menu-item"><a class="nav-button animate" href="#videos">Videos</a></li>
-                              <li class="main-menu-item"><a class="nav-button animate" href="#stores">Stores</a></li>
+                              <li class="main-menu-item"><a class="nav-button animate" href="#intro"><?php _e( 'Home', 'toms' ); ?></a></li>
+                              <li class="main-menu-item"><a class="nav-button animate" href="#products"><?php _e( 'Products', 'toms' ); ?></a></li>
+                              <li class="main-menu-item"><a class="nav-button animate" href="#giving"><?php _e( 'Giving', 'toms' ); ?></a></li>
+                              <li class="main-menu-item"><a class="nav-button animate" href="#videos"><?php _e( 'Videos', 'toms' ); ?></a></li>
+                              <li class="main-menu-item"><a class="nav-button animate" href="#stores"><?php _e( 'Stores', 'toms' ); ?></a></li>
                          </ul><!-- nav main menu -->
                     </div><!-- col md 6 -->
 
@@ -76,13 +76,13 @@ get_header(); ?>
 
     <div class="wrapper wrapper-absolute">
         <div class="intro-button">
-            <a href="#products" class="button nav-button button-lightblue animate-button animate-button-out">View our Spring Collection</a>
+            <a href="#products" class="button nav-button button-lightblue animate-button animate-button-out"><?php _e( 'View our Sping Collection', 'toms' ); ?></a>
        </div><!-- intro button -->
   </div><!-- wrapper absolute -->
 
   <ul class="bxslider" id="bxseasonal">
    <div class="slide">
-       <img src="<?php echo $rooturl; ?>/images/banner.jpg" alt="TOMS Seasonal Banner">
+       <img src="<?php echo $rooturl; ?>/images/adventures.jpg" alt="TOMS Seasonal Banner">
   </div><!-- slide -->
 </ul><!-- bxslider -->
 
@@ -100,7 +100,7 @@ get_header(); ?>
                    <!-- Begin MailChimp Signup Form -->
                    <div id="mc_embed_signup">
                     <form action="http://toms-shoes.us8.list-manage.com/subscribe/post?u=cc70c9d03472dcb46f93a0632&amp;id=b736f82e64" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                         <h4><strong>SIGN UP FOR EMAILS</strong> — We'd love to have you!</h4>
+                         <h4><strong><?php _e( 'Signup for Emails', 'toms' ); ?></strong> — <?php _e( 'We\'d love to have you!', 'toms' ); ?></h4>
                          <input type="email" value="" name="EMAIL" class="required email" placeholder="Enter your Email" id="mce-EMAIL">
                          <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe"></div>
                          <div id="mce-responses">
@@ -130,7 +130,7 @@ get_header(); ?>
            <div class="col-md-12">
 
                <section class="section-header">
-                   <h2>Spring Collection 2014</h2>
+                   <h2><?php _e( 'Spring Collection 2014', 'toms' ); ?></h2>
                    <!--<p>Featuring a perforated upper in suede, we have added an element of sophistication to one of our most relaxed styles.</p>-->
               </section>
 
@@ -176,7 +176,7 @@ get_header(); ?>
             <?php
             for ($i = 1; $i <= 26; $i++) {
                 if($i==26/2){
-                  echo '</section><div class="clear"></div><div class="collapse pager-expand" id="expand"><section class="clearfix">';
+                  echo '</section><div class="clear"></div><div class="collapse pager-expand" id="women-expand"><section class="clearfix">';
                 }
                 echo '<a data-slide-index="' . 
                 ($i - 1) .
