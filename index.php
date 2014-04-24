@@ -419,15 +419,39 @@ get_header(); ?>
 
 
       <div class="row">
-           <div class="col-md-8">
+           <div class="col-md-6">
 
                <div class="article article-big">
                    <section class="article-top">
-                       <iframe height="417" src="//www.youtube.com/embed/wv-YbDqq4hE?controls=2&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                      <iframe height="365" src="//www.youtube.com/embed/1Il9KdXW8RQ?controls=2&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                  </section><!-- article-top -->
+                  <section class="article-bottom">
+                       <h2>One Day without Shoes 2014</h2>
+                       <p>Particles by Egg Hell. Directed by Theo Prodromidis.</p>
+                  </section>
+                  <section class="article-social">
+                       <ul>
+                           <li><a target="_blank" rel="nofollow" href="http://www.pinterest.com/pin/create/button/?url=http%3A//www.youtube.com/attribution_link%3Fa%3DhOtjR_u7MJM%26u%3D%252Fwatch%253Fv%253D1Il9KdXW8RQ%2526feature%253Dshare&description=One%20Day%20Without%20Shoes%202014%20%28Greece%29&is_video=true&media=https%3A//i1.ytimg.com/vi/1Il9KdXW8RQ/maxresdefault.jpg"><i class="fa fa-pinterest"></i></a></li>
+                           <li><a target="_blank" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=1Il9KdXW8RQ"><i class="fa fa-facebook"></i></a></li>
+                           <li><a target="_blank" rel="nofollow" href="https://twitter.com/home?status=https://www.youtube.com/watch?v=1Il9KdXW8RQ"><i class="fa fa-twitter"></i></a></li>
+                           <li><a target="_blank" rel="nofollow" href="https://plus.google.com/share?url=https://www.youtube.com/watch?v=1Il9KdXW8RQ"><i class="fa fa-google-plus"></i></a></li>
+                      </ul>
+                 </section><!-- article social -->
+                 <section class="article-label">Videos</section>
+            </div><!-- article -->
+
+       </div><!-- col md 6 -->
+
+       <div class="col-md-6">
+
+         <div class="row">
+              <div class="col-md-12">
+                  <div class="article article-small">
+                     <section class="article-top">
+                       <iframe height="150" src="//www.youtube.com/embed/wv-YbDqq4hE?controls=2&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                   </section><!-- article-top -->
                   <section class="article-bottom">
                        <h2>One Day without Shoes 2013</h2>
-                       <p>On April 16, 2013, we came together and went without shoes alongside agents of change (YOU!) across 50 countries to bring awareness to children's health and education. </p>
                   </section>
                   <section class="article-social">
                        <ul>
@@ -438,14 +462,12 @@ get_header(); ?>
                       </ul>
                  </section><!-- article social -->
                  <section class="article-label">Videos</section>
-            </div><!-- article -->
-
-       </div><!-- col md 8 -->
-
-       <div class="col-md-4">
+               </div><!-- article -->
+          </div><!-- nested col md 12 -->
+     </div><!-- nested row -->
 
           <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-6">
                   <div class="article article-small">
                       <section class="article-top">
                           <iframe height="150" src="//www.youtube.com/embed/UWRRPeqNKtg?controls=2&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -464,11 +486,9 @@ get_header(); ?>
                     </section><!-- article social -->
                     <section class="article-label">Videos</section>
                </div><!-- article -->
-          </div><!-- nested col md 12 -->
-     </div><!-- nested row -->
+          </div><!-- nested col md 6 -->
 
-     <div class="row">
-         <div class="col-md-12">
+                <div class="col-md-6">
              <div class="article article-small">
                  <section class="article-top">
                      <iframe height="150" src="//www.youtube.com/embed/RqBw_Du5qiI?controls=2&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -487,8 +507,11 @@ get_header(); ?>
                </section><!-- article social -->
                <section class="article-label">Videos</section>
           </div><!-- article -->
-     </div><!-- nested col md 12 -->
-</div><!-- nested row -->
+     </div><!-- nested col md 6 -->
+     </div><!-- nested row -->
+
+ 
+   
 
 
 </div><!-- col md 4 -->

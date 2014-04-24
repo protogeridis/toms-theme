@@ -617,6 +617,7 @@ top: 4px;
    }
    .article iframe{
    	min-width:100%;
+      max-width:100%;
    }
    .article-social{
    	margin:30px 0;
